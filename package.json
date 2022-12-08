@@ -2,10 +2,9 @@
   "name": "nodejs-car-api",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
   "scripts": {
     "test": "test",
-    "start": "node server.js > app.log 2> error.log &"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
