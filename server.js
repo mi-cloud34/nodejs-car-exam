@@ -88,7 +88,7 @@ app.use(
   );
 app.get('/', (req, res)=>{
     res.sendStatus(200);
-})
+}) 
 app.listen(process.env.APP_PORT,()=>{
     console.log('sunucu ayaga kalktı');
     app.use("/cars",CarRoutes);
